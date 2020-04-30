@@ -2400,6 +2400,9 @@
     <ClInclude Include="ql\pricingengines\vanilla\analyticeuropeanengine.hpp">
       <Filter>pricingengines\vanilla</Filter>
     </ClInclude>
+    <ClInclude Include="ql\pricingengines\vanilla\analyticeuropeanvasicekengine.hpp">
+      <Filter>pricingengines\vanilla</Filter>
+    </ClInclude>
     <ClInclude Include="ql\pricingengines\vanilla\analyticgjrgarchengine.hpp">
       <Filter>pricingengines\vanilla</Filter>
     </ClInclude>
@@ -4294,6 +4297,12 @@
     <ClInclude Include="ql\methods\finitedifferences\schemes\cranknicolsonscheme.hpp">
       <Filter>methods\finitedifferences\schemes</Filter>
     </ClInclude>
+    <ClInclude Include="ql\math\integrals\gausslaguerrecosinepolynomial.hpp">
+      <Filter>math\integrals</Filter>
+    </ClInclude>
+    <ClInclude Include="ql\math\integrals\momentbasedgaussianpolynomial.hpp">
+      <Filter>math\integrals</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ql\methods\montecarlo\brownianbridge.cpp">
@@ -5533,6 +5542,9 @@
       <Filter>pricingengines\vanilla</Filter>
     </ClCompile>
     <ClCompile Include="ql\pricingengines\vanilla\analyticeuropeanengine.cpp">
+      <Filter>pricingengines\vanilla</Filter>
+    </ClCompile>
+    <ClCompile Include="ql\pricingengines\vanilla\analyticeuropeanvasicekengine.cpp">
       <Filter>pricingengines\vanilla</Filter>
     </ClCompile>
     <ClCompile Include="ql\pricingengines\vanilla\analyticgjrgarchengine.cpp">

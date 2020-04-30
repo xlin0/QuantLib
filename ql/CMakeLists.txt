@@ -706,6 +706,7 @@ set(QuantLib_SRC
     pricingengines/vanilla/analyticdigitalamericanengine.cpp
     pricingengines/vanilla/analyticdividendeuropeanengine.cpp
     pricingengines/vanilla/analyticeuropeanengine.cpp
+    pricingengines/vanilla/analyticeuropeanvasicekengine.cpp
     pricingengines/vanilla/analyticgjrgarchengine.cpp
     pricingengines/vanilla/analytich1hwengine.cpp
     pricingengines/vanilla/analytichestonengine.cpp
@@ -1432,9 +1433,11 @@ set(QuantLib_HDR
     math/integrals/filonintegral.hpp
     math/integrals/gaussianorthogonalpolynomial.hpp
     math/integrals/gaussianquadratures.hpp
+    math/integrals/gausslaguerrecosinepolynomial.hpp
     math/integrals/gausslobattointegral.hpp
     math/integrals/integral.hpp
     math/integrals/kronrodintegral.hpp
+    math/integrals/momentbasedgaussianpolynomial.hpp
     math/integrals/segmentintegral.hpp
     math/integrals/simpsonintegral.hpp
     math/integrals/trapezoidintegral.hpp
@@ -1963,6 +1966,7 @@ set(QuantLib_HDR
     pricingengines/vanilla/analyticdigitalamericanengine.hpp
     pricingengines/vanilla/analyticdividendeuropeanengine.hpp
     pricingengines/vanilla/analyticeuropeanengine.hpp
+    pricingengines/vanilla/analyticeuropeanvasicekengine.hpp
     pricingengines/vanilla/analyticgjrgarchengine.hpp
     pricingengines/vanilla/analytich1hwengine.hpp
     pricingengines/vanilla/analytichestonengine.hpp
